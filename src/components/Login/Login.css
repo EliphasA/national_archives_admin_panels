@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.login {
+  height: 100vh;
+}
+
+.login .form {
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 25px;
+}
+
+.login .form .form-control {
+  width: 100%;
+  margin-bottom: 15px;
+  /* border-bottom: 1.4px dotted gray; */
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 0px;
+}
+
+.login .form .error {
+  color: red;
+  font-size: 12px;
+}
+
+.login .form .form-control .icon {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.login .form button .login-icon {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.login .form .account-icon h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.login .form .form-control input[type='email'],
+.login .form .form-control input[type='password'] {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 8px 0;
+  margin-left: 5px;
+  width: 90%;
+}
+
+.login .form .sub {
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: #353b48;
+  margin-top: 10px;
+  color: #dfe6e9;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login .form sub:hover {
+  background-color: #4b110f;
+}
+
+.login .form .forgot-password {
+  margin-top: 15px;
+  padding: 10px 0;
+  border-top: 1px solid #dfe6e9;
+}
+
+.login .form .forgot-password a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #800000;
+}
+
+.login .form .forgot-password a:hover {
+  color: #4b110f;
+}
+
+/*Mobile Styling*/
+@media only screen and (max-width: 952px) {
+  .login .form {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+  .login .form {
+    width: 50%;
+  }
+}

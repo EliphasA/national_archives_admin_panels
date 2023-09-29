@@ -1,0 +1,20 @@
+.pop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop button {
+  background-color: transparent;
+  color: red;
+  font-size: 16px;
+  font-weight: bolder;
+  width: 40px;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pop h5 {
+  color: white;
+}

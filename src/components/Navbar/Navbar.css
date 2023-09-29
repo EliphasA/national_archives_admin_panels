@@ -1,0 +1,96 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-nav a svg {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown span {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    background-color: #444;
+    min-width: 200px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding-bottom: 20px;
+    }
+  
+    .sidebar-nav {
+      flex-direction: column;
+    }
+  
+    .sidebar-nav li {
+      margin-bottom: 0;
+    }
+  
+    .dropdown-menu {
+      position: static;
+      display: block;
+      background-color: #333;
+      padding: 10px;
+    }
+  
+    .dropdown:hover .dropdown-menu {
+      display: none;
+    }
+  }
+  

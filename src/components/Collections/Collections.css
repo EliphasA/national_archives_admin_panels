@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.admin-home {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.admin-home .admin-home-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+}
+
+.admin-home .search-add-image {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 15px;
+}
+
+.add-image .add-collection{
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.admin-home .search-add-image .search input[type='search'] {
+  font-size: 1rem;
+  padding: 8px;
+  border: 1.5px solid gray;
+  outline: none;
+}
+
+.admin-home .search-add-image .add-image button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #353b48;
+  border: none;
+  outline: none;
+  color: #dfe6e9;
+  cursor: pointer;
+}
+
+.admin-home .admin-home-container table {
+  margin: 15px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.admin-home .admin-home-container table button {
+  padding: 5px 6px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  color: #dfe6e9;
+  cursor: pointer;
+}
+.admin-home .admin-home-container table button .icon {
+  margin-right: 5px;
+}
+.admin-home .admin-home-container table img {
+  height: 40px;
+}
+
+.admin-home .admin-home-container table tr td:last-child {
+  text-align: left;
+}
+
+.admin-home .admin-home-container table .edit {
+  background-color: #2ecc71;
+  font-size: 22px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.admin-home .admin-home-container table .edit:hover {
+  background-color: #27ae60;
+}
+.admin-home .admin-home-container table .delete {
+  background-color: #e74c3c;
+  font-size: 22px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.admin-home .admin-home-container table .delete:hover {
+  background-color: #c0392b;
+}
+
+.admin-home .admin-home-container table th {
+  background-color: #353b48;
+  color: #dfe6e9;
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.admin-home .admin-home-container table td {
+  padding: 5px 10px;
+}
+
+.admin-home .admin-home-container table tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
